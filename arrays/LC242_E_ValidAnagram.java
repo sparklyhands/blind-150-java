@@ -1,22 +1,34 @@
-public boolean isValidAnagram(String a , String b) {  
-    if (a.length() != b.length()) {
-        return false;
+public class Main {
+
+    public static void main(String[] args) {
+        Solution sol = new Solution();
+
+        String s = "anagram";
+        String t = "nagaram";
+
+        boolean result = sol.isAnagram(s, t);
+        System.out.println("Is Anagram? " + result);
     }
+}
 
-    int[] counts = new int[26];
+class Solution {
+    public boolean isAnagram(String s, String t) {
+        if (s.length() != t.length()) return false;
 
-    for (char c : a.toCharArray()) {
-        int index = c - 'a';
-        counts[index]++;
-    }
+        int[] freq = new int[26];
 
-    for (char c : b.toCharArray()) {
-        int index = c - 'a';
-        counts[index]--;
-        if (counts[index] < 0) {
-            return false;
+        for (char c : s.toCharArray()) {
+            freq[c - 'a']++;
         }
-    }
 
-    return true;
+        for (char c : t.toCharArray()) {
+            freq[c - 'a']--;
+        }
+
+        for (int count : freq) {
+            if (count != 0) return false;
+        }
+
+        return true;
+    }
 }
