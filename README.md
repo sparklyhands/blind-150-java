@@ -19,6 +19,7 @@ My Java solutions for Blind 150 / LeetCode practice. Clean, structured, and inte
 | LC11 | Container With Most Water | Medium | Two pointers from ends inward | O(n) | O(1) |
 
 <h2>✅ Sliding Window </h2>
+
 | Problem | Title | Level | How to Solve | Time | Space |
 | --- | --- | --- | --- | --- | --- |
 | LC3 | Longest Substring Without Repeating Characters | Medium | Sliding window + HashSet | O(n) | O(n) |
@@ -28,6 +29,7 @@ My Java solutions for Blind 150 / LeetCode practice. Clean, structured, and inte
 | LC438 | Find All Anagrams in a String | Medium | Sliding window + freq arrays | O(n) | O(1) |
 
 <h2>✅ Two Pointers </h2>
+
 | Problem | Title | Level | How to Solve | Time | Space |
 | --- | --- | --- | --- | --- | --- |
 | LC125 | Valid Palindrome | Easy | Two pointers inward | O(n) | O(1) |
@@ -45,6 +47,7 @@ My Java solutions for Blind 150 / LeetCode practice. Clean, structured, and inte
 | LC4 | Median of Two Sorted Arrays | Hard | Binary search on partitions | O(log(min(n,m))) | O(1) |
 
 <h2>✅ Linked List</h2>
+
 | Problem | Title | Level | How to Solve | Time | Space |
 | --- | --- | --- | --- | --- | --- |
 | LC141 | Linked List Cycle | Easy | Fast/slow pointers | O(n) | O(1) |
@@ -54,6 +57,7 @@ My Java solutions for Blind 150 / LeetCode practice. Clean, structured, and inte
 | LC23 | Merge k Sorted Lists | Hard | Min‑heap or divide & conquer | O(n log k) | O(k) |
 
 <h2>✅Trees</h2>
+
 | Problem | Title | Level | How to Solve | Time | Space |
 | --- | --- | --- | --- | --- | --- |
 | LC104 | Max Depth of Binary Tree | Easy | DFS or BFS | O(n) | O(h) |
@@ -66,6 +70,7 @@ My Java solutions for Blind 150 / LeetCode practice. Clean, structured, and inte
 | LC124 | Binary Tree Max Path Sum | Hard | DFS return max branch sum | O(n) | O(h) |
 
 <h2>✅ Graphs</h2>
+
 | Problem | Title | Level | How to Solve | Time | Space |
 | --- | --- | --- | --- | --- | --- |
 | LC200 | Number of Islands | Medium | DFS/BFS flood fill | O(m·n) | O(m·n) |
@@ -75,6 +80,7 @@ My Java solutions for Blind 150 / LeetCode practice. Clean, structured, and inte
 | LC127 | Word Ladder | Hard | BFS + pattern map | O(n·L²) | O(n·L) |
 
 <h2>✅ Dynamic Programming</h2>
+
 | Problem | Title | Level | How to Solve | Time | Space |
 | --- | --- | --- | --- | --- | --- |
 | LC70 | Climbing Stairs | Easy | DP: f(n)=f(n-1)+f(n-2) | O(n) | O(1) |
